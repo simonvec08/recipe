@@ -1,1 +1,3 @@
-
+d = input("Do you want to make pasta, soup, or cake?")
+i = input("Do you want the main ingredient to be chicken, chocolate, or _?")
+s = input("")
