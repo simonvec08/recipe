@@ -1,3 +1,23 @@
 d = input("Do you want to make pasta, soup, or cake?")
-i = input("Do you want the main ingredient to be chicken, chocolate, or _?")
-s = input("")
+i = input("Do you want the main ingredient to be chicken, chocolate, or sausage?")
+s = int(input("How many servings do you want to make? Type a numeric value"))
+if d.lower() == "soup":
+    if i.lower() == "chicken":
+        print(f"You should make Chicken Noodle Soup. Ingredients are {1 * s} tablespoon butter, {1/2 *  s} cups chopped onion, {1/2 * s} cups chopped celery, {4 * 14.5 * s} cans chicken broth, {14.5 * s} cans vegetable broth, {1/2 * s} pounds chopped cooked chicken breast, {3/4 * s} cups egg noodles, {1 * s} cups sliced carrots, {1/2 * s} teaspoon dried basil, {1/2 * s} dried oregano, {s} cups of salt and ground black pepper to taste")
+if d.lower() == "soup":
+    if i.lower() == "sausage":
+        print(f"You should make Italian Sausage Soup with Tortellini. Ingredients are {}")
+1 pound sweet Italian sausage, casings removed
+1 cup chopped onion
+2 cloves garlic, minced
+5 cups beef broth
+4 large tomatoes - peeled, seeded and chopped
+1 (8 ounce) can tomato sauce
+1 cup thinly sliced carrots
+½ cup water
+½ cup red wine
+½ tablespoon packed fresh basil leaves
+½ teaspoon dried oregano
+1 ½ cups sliced zucchini
+3 tablespoons chopped fresh parsley
+8 ounces fresh tortellini pasta
