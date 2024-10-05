@@ -1,23 +1,12 @@
 d = input("Do you want to make pasta, soup, or cake?")
-i = input("Do you want the main ingredient to be chicken, chocolate, or sausage?")
+i = input("Do you want the main ingredient to be chicken, ham and potato, or sausage?")
 s = int(input("How many servings do you want to make? Type a numeric value"))
 if d.lower() == "soup":
     if i.lower() == "chicken":
         print(f"You should make Chicken Noodle Soup. Ingredients are {1 * s} tablespoon butter, {1/2 *  s} cups chopped onion, {1/2 * s} cups chopped celery, {4 * 14.5 * s} cans chicken broth, {14.5 * s} cans vegetable broth, {1/2 * s} pounds chopped cooked chicken breast, {3/4 * s} cups egg noodles, {1 * s} cups sliced carrots, {1/2 * s} teaspoon dried basil, {1/2 * s} dried oregano, {s} cups of salt and ground black pepper to taste")
 if d.lower() == "soup":
     if i.lower() == "sausage":
-        print(f"You should make Italian Sausage Soup with Tortellini. Ingredients are {}")
-1 pound sweet Italian sausage, casings removed
-1 cup chopped onion
-2 cloves garlic, minced
-5 cups beef broth
-4 large tomatoes - peeled, seeded and chopped
-1 (8 ounce) can tomato sauce
-1 cup thinly sliced carrots
-½ cup water
-½ cup red wine
-½ tablespoon packed fresh basil leaves
-½ teaspoon dried oregano
-1 ½ cups sliced zucchini
-3 tablespoons chopped fresh parsley
-8 ounces fresh tortellini pasta
+        print(f"You should make Italian Sausage Soup with Tortellini. Ingredients are {1 * s} pounds sweet Italian sausage, casings removed, {1 * s} cups chopped onion, {2 * s} cloves garlic minced, {5 * s} cups beef broth, {4 * s} large tomatoes - peeled seeded an chopped, {8 *  s} cans tomato sauce, {1 * s} cups thinly sliced carrots, {1/2 * s} cups water, {1/2 * s} cups red wine, {1/2 * s} tablespoons packed fresh basil, {1/2 * s} teaspoons dried oregano, {3/4 * s} cups sliced zucchini, {3 * s} tablespoons chopped fresh parsley, {8 * s} ounces fresh tortellini pasta")
+if d.lower() == "soup":
+    if i.lower() == "Ham and potato":
+        print(f"You should make a delicous Ham and Potato Soup. You'll need {s} onions, {s} celery, {s} potatoes, Boil the ham and veggies in water, in addition get {s} hams, {s} cups of bouillon granules, salt, and black pepper, make {s} cups of roux with butter and all-purpose flour, Finally whisk {2 * s} cups of milk into the roux for a creamy soup base")
