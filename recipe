@@ -25,3 +25,6 @@ if d.lower() == "salad":
 if d.lower() == "salad":
     if i.lower() == "ham and potato":
         print(f"You should make Ham Salad. You'll need {3 * s / 12} cups ground fully cooked ham, {2 * s / 12} hard cooked eggs chopped, {2 * s / 12}tablespoons finely chopped celery, {4 * s / 12} teaspoons sweet pickle relish, {2 * s / 12} teaspoons finely chopped onion, {1 * s / 12} cups mayonnaise, {1 * s / 12} tablespoons prepared yellow mustard")
+if d.lower() == "salad":
+    if i.lower() == "sausage":
+        print(f"You should make Succulent Sausage Squash Salad. Ingredients are: {1 * s / 5} small butternut squash - peeled, seeded, and cut into 1/2-inch cubes, {1 * s / 12} tablespoons olive oil, {1 * s / 12} teaspoons salt, {4 * s / 12} ounces ground breakfast sausage, {2 * s  / 12} large apples diced into 1/2-inch cubes, {1 * s / 12} teaspoons fresh thyme leaves, {1/4 * s / 12} teaspoons ground sage, {1/4 * s / 12} teaspoons freshly grated nutmeg, {1/2 * s / 12} cups balsamic vinegar, {1/4 * s /12} cups maple syrup")
