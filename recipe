@@ -22,3 +22,6 @@ if d.lower() == "pasta":
 if d.lower() == "salad":
     if i.lower() == "chicken":
         print(f"You Should make Best Chicken Salad. Ingredients are: {1/2 * s / 2} cups blanched slivered almonds, {1/2 * s / 2} cups mayonnaise,{1 * s / 2} tablespoons lemon juice, {1/4 * s / 2} teaspoons ground black pepper, {2 * s / 2}cups chopped, cooked chicken meat, {1 * s / 2} stalks celery, chopped")
+if d.lower() == "salad":
+    if i.lower() == "ham and potato":
+        print(f"You should make Ham Salad. You'll need {3 * s / 12} cups ground fully cooked ham, {2 * s / 12} hard cooked eggs chopped, {2 * s / 12}tablespoons finely chopped celery, {4 * s / 12} teaspoons sweet pickle relish, {2 * s / 12} teaspoons finely chopped onion, {1 * s / 12} cups mayonnaise, {1 * s / 12} tablespoons prepared yellow mustard")
