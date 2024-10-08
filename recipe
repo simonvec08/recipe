@@ -1,4 +1,4 @@
-d = input("Do you want to make pasta, soup, or cake?")
+d = input("Do you want to make pasta, soup, or salad?")
 i = input("Do you want the main ingredient to be chicken, ham and potato, or sausage?")
 s = int(input("How many servings do you want to make? Type a numeric value"))
 if d.lower() == "soup":
@@ -17,5 +17,8 @@ if d.lower() == "pasta":
     if i.lower() == "sausage":
         print(f"You should make Cheesy Sausage Pasta. To start you will need {1 * s / 8} 16 ounce packages uncooked pasta shells, {1 * s / 8} tablespoons vegetable oil, {1/2 * s / 8} tablespoons finely minced onion, {1 * s / 8} orange bell pepper thinly sliced, {1 * s / 8} teaspoons minced garlic, {1 * s / 8} pounds bulk Italian sausage, {1 * s / 8} 14.5 ounce cans stewed tomatoes, {1 * s / 8} cups heavy cream, {1 * s / 8} cups grated Parmesean cheese, {1 * s / 8} tablespoons chopped fresh parsley")
 if d.lower() == "pasta":
-    if i.lower() == "ham and potatoes":
+    if i.lower() == "ham and potato":
         print(f"You should make Three Cheese Ham Involtini. Ingredients are {2 * s / 4} tablespoons olive oil, {3/4 * s / 4} cups sliced brown or white mushrooms, {1 * s /4} large yellow onions diced, {3 * s / 4} cloves garlic minced or crushed, {1 * s / 4} red bell peppers diced, {4 * s / 4} slices smoked ham, {1/2 * s / 4} cups shredded Monterey Jack cheese for the top, {3 * s / 4} cups uncooked pasta shells, add salt to taste, freshly ground black pepper to taste, pinch of cayenne pepper")
+if d.lower() == "salad":
+    if i.lower() == "chicken":
+        print(f"You Should make Best Chicken Salad. Ingredients are: {1/2 * s / 2} cups blanched slivered almonds, {1/2 * s / 2} cups mayonnaise,{1 * s / 2} tablespoons lemon juice, {1/4 * s / 2} teaspoons ground black pepper, {2 * s / 2}cups chopped, cooked chicken meat, {1 * s / 2} stalks celery, chopped")
