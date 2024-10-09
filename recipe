@@ -1,6 +1,6 @@
 d = input("Do you want to make pasta, soup, or salad?")
 i = input("Do you want the main ingredient to be chicken, ham and potato, or sausage?")
-s = int(input("How many servings do you want to make? Type a numeric value"))
+s = float(input("How many servings do you want to make? Type a numeric value"))
 if s == 0:
     print("Enjoy eating nothing")
 if s <0 :
