@@ -1,0 +1,15 @@
+import json
+person = '{"name": "Bob", "languages": ["English", "French"]}'
+person_dict = json.loads(person)
+print( person_dict)
+print(person_dict['languages'])
+print("Hello, welcome to the study buddy, =)")
+subject = input("What would you like to study, Chemistry or CSB?")
+if subject == "Chemistry":
+    print("Lets study Chemistry")
+if  subject == "CSB":
+    print("Lets study CSB")
+    input(f"Type in a name? options are {person_dict}")
+
+else:
+    print("error")
